@@ -1,0 +1,10 @@
+uv-version := "0.4.15"
+
+default:
+	just --list
+
+download_uv_installers:
+	wget https://astral.sh/uv/0.4.6/install.sh -O install-uv.sh
+	wget https://astral.sh/uv/0.4.6/install.ps1 -O install-uv.ps1
+	chmod +x install-uv.sh
+	chmod +x install-uv.ps1

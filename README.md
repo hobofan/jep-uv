@@ -17,6 +17,7 @@ Additionally, the Python package we want to embed in the `jar` has its dependenc
   - providing a simple way to use a Python package with dependencies (including native dependencies)
   - providing a consistent Python environment with a predictable Python version
 - Provide an example project, that can be adjusted in individual parts to support similar use-cases
+- Should work both with JRE8 and JRE20 (both a old an new Java version, that one will commonly find in older Java projects)
 
 ## Non-goals
 
